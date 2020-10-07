@@ -237,11 +237,6 @@ ul li {
 .artikul--name span svg {
     margin-right: 5px;
 }
-.zvezd-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .zvezdochki.active {
     fill: #e6c553;
     stroke: #e6c553;
