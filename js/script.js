@@ -83,6 +83,33 @@ $('.no-heart').on('click', function() {
   $('.heart').css('display', 'block');
 });
 
+
+// При наведении на звездочек:
+
+$('.zvezd2').hover(function() {
+  $('.aa').addClass('active-hover');
+},function() {
+  $('.aa').removeClass('active-hover');
+});
+
+$('.zvezd3').hover(function() {
+  $('.bb').addClass('active-hover');
+},function() {
+  $('.bb').removeClass('active-hover');
+});
+
+$('.zvezd4').hover(function() {
+  $('.cc').addClass('active-hover');
+},function() {
+  $('.cc').removeClass('active-hover');
+});
+
+$('.zvezd5').hover(function() {
+  $('.dd').addClass('active-hover');
+},function() {
+  $('.dd').removeClass('active-hover');
+});
+
 // Slider products:
     $('.slider-for').slick({
         slidesToShow: 1,
