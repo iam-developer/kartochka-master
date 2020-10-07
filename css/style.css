@@ -250,6 +250,18 @@ ul li {
 svg .zvezdochka {
     fill-opacity: 0;
 }
+.aa.active-hover,
+.bb.active-hover,
+.cc.active-hover,
+.dd.active-hover {
+    fill: #e6c553;
+    stroke: #e6c553;
+}
+.zvezd1:hover {
+    fill: #e6c553;
+    stroke: #e6c553;
+}
+
 
 /* RIGHT CONTENT */
 
